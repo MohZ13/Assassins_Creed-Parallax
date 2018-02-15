@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+}
+
+@font-face {
+    font-family: ACfont;
+    src: url(acfont/Assassin$.ttf);
+}
+
+.content {
+	width: 100%;
+	margin: 0px;
+	font-family: ACfont;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.content-header {
+	text-align: center;
+	font-size: 80px;
+	margin: 0px;
+	padding: 10px;
+	color: rgb(242, 242, 242);
+}
+
+.ch-red {
+	color: rgb(255, 51, 51);
+}
+
+.content-sub-header {
+	text-align: center;
+	font-size: 50px;
+	margin: 0px
+}
+
+.content-body {
+	font-size: 26px;
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+
+.content-body > p {
+	margin: 0px;
+	padding: 10px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+
+#ac-1 {
+	background-image: url(images/AC-1-content.jpg);
+}
+
+.image {
+	height: 550px;
+	width:100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-main {
+	background-image: url("images/AC-Syndicate.jpg");
+	background-position: bottom;
+}
+
+#img-main-overlay {
+	background-image: url("images/AC-main-logo.jpg");
+	opacity: 0.5;
+}
+
+#img-ac-1-1 {
+	background-image: url("images/AC-main-logo.jpg");
+}
+
+#img-ac-1-2 {
+	background-image: url("images/AC-1.jpg");
+}
+
+#img-ac-2-1 {
+	background-image: url("images/AC-2.png");
+	background-size: 80% 550px;
+}
+
+#img-ac-2-2 {
+	background-image: url("images/AC-2-2.jpg");
+	background-size: 100% 100%;
+}
+
+#img-ac-bh-1 {
+	background-image: url("images/AC-bh-1.png");
+	background-size: 70% 500px;
+}
+
+#img-ac-bh-2 {
+	background-image: url("images/AC-bh-2.jpg");
+}
+
+#img-ac-r-1 {
+	background-image: url("images/AC-r-1.png");
+	background-size: 70% 500px;
+}
+
+#img-ac-r-2 {
+	background-image: url("images/AC-r-2.jpg");
+	background-size: 100% 100%;
+}
+
+#img-movie {
+	background-image: url("images/AC-movie.jpg");
+}
